@@ -1,0 +1,56 @@
+.work-place-title {
+    font-size: 25px;
+}
+.workplace-ant-grid-container {
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    grid-template-rows: 33.3333% 33.3333% 33.3333%;
+}
+.workplace-ant-grid-container .item{
+    box-sizing: border-box;
+    box-shadow:1px 0 0 0 #e8e8e8, 0 1px 0 0 #e8e8e8, 1px 1px 0 0 #e8e8e8, inset 1px 0 0 0 #e8e8e8, inset 0 1px 0 0 #e8e8e8;
+    transition: .5s;
+    padding: 20px;
+}
+.workplace-ant-grid-container .item:hover{
+    box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+.workplace-ant-grid-container .item a{
+    font-size: 14px;
+    vertical-align: middle;
+}
+.workplace-ant-grid-container .workplace-ant-grid-container-detail{
+    color: rgba(0, 0, 0, 0.45);
+    margin-top: 10px;
+    height: 44px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.workplace-ant-grid-container .antd-pro-pages-dashboard-workplace-projectItemContent{
+    display: flex;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+.workplace-ant-grid-container .antd-pro-pages-dashboard-workplace-projectItemContent a{
+    color: rgba(0,0,0,.45);
+    display: inline-block;
+    flex: 1 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+.workplace-ant-grid-container .antd-pro-pages-dashboard-workplace-datetime{
+    color: rgba(0,0,0,.25);
+    flex: 0 0 auto;
+    float: right;
+}
+.has-tag .ant-tag{
+    margin-bottom: 10px;
+}

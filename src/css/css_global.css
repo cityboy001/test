@@ -1,0 +1,15 @@
+html,body,#root,.container{
+    height: 100%;
+    width: 100%;
+}
+.font-19{
+    font-size: 19px;
+}
+.antd-content-container {
+    margin: -24px -40px -40px -40px;
+    background-color: rgb(240, 242, 245);
+}
+.antd-content-container .antd-content-wrapper{
+    padding: 10px;
+    background-color: white;
+}

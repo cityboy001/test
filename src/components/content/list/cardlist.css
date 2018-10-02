@@ -1,0 +1,11 @@
+.antd-card-list-container .antd-card-list-item {
+    height:184px;
+    width: 100%;
+}
+.antd-card-list-container .antd-card-list-item-content{
+    display: -webkit-box;
+    height: 64px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
